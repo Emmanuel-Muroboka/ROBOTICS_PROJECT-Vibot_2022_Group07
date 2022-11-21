@@ -60,7 +60,10 @@ If you can observe the small screen on the fur right side of our image, the trac
 
 ![Lane Detect 2](https://user-images.githubusercontent.com/62598684/203064861-10adc910-91e4-42b8-b286-d0e81275df44.jpeg)
 
-Now we can conclude to say we have a good lane detection done as the little screen on the right has fully turned green which mean we can now go ahead and excute our trained robot to perform lane detection. To watch a video that we took of or turtlebot performing lane follow the link below : https://youtu.be/51OK6jKl1r0
+Now we can conclude to say we have a good lane detection done as the little screen on the right has fully turned green which mean we can now go ahead and excute our trained robot to perform lane detection. To see our final outcome of what we learned to achieve lane detection, watch a video that we took of or turtlebot performing lane follow the link below : https://youtu.be/51OK6jKl1r0
+
+## 3. Tunnel Challenge 
+We decided to make things intresting by adding a challenge for our turtlebot and see how it would perform after being placed in this situation. The tunnel challenge is the sixth mission of the obstacles that a turtlebot is given to overcome during autorace challenges. To make the tunnel challenge possible we change the navigation parameters in the turtlebot3/turtlebot3_navigation/param/ file. If you slam and make a new map, Place the new map to turtlebot3_autorace package you’ve placed /turtlebot3_autorace/turtlebot3_autorace_driving/maps/. We used the command lines that are given on the emanual robotis website under mission 8.5.6 tunnel mission.
 
 
 
