@@ -38,4 +38,35 @@ The Intrinsic parameters of a camera deals with the camera's internal characteri
  After the calibration, the **calibrationdata.tar.gz** folder was created at /tmp folder. We then extract the data from the ost.yalm file and save it in **turtlebot3_autorace_camera/calibration/intrinsic_calibration/camerav2_320x240_30fps.yaml**. The result is shown below: ![Intrinsic parameters](https://user-images.githubusercontent.com/62598684/203049391-324b0f7f-eaab-4074-8a43-0b793ccd300a.jpeg)
 
 ## 1. (iii) Extrinsic Camera Calibration
-The Extrinsic Camera calibration was done in order to acquire the robot pose and orientation. To get these done, we launched the intrinsic modified calibration parameters as such in **action mode** before running the Extrinsic calibration packages. The Extrinsic Camera Calibration launch file basically runs two source code **image_compensation.py** and **image_projection.py**. It then published **/camera/image_extrinsic_calib/compressed** which is the default image showing the unaligned red border according to 4 image coordinates and **/camera/image_projected_compensated** “birds-eye view” image showing the scale of the image brightness contrast of the compressed image according to the **clip_hist_percent** parameter defined after running the **rqt**. The images below shows the **default image** and **compensated image**: 
+The Extrinsic Camera calibration was done in order to acquire the robot pose and orientation. To get these done, we launched the intrinsic modified calibration parameters as such in **action mode** before running the Extrinsic calibration packages. The Extrinsic Camera Calibration launch file basically runs two source code **image_compensation.py** and **image_projection.py**. It then published **/camera/image_extrinsic_calib/compressed** which is the default image showing the unaligned red border according to 4 image coordinates and **/camera/image_projected_compensated** “birds-eye view” image showing the scale of the image brightness contrast of the compressed image according to the **clip_hist_percent** parameter defined after running the **rqt**. The images below shows the **default image** , **compensated image** and **rqt configuration_parameters**: ![Extrinsic Calibration](https://user-images.githubusercontent.com/62598684/203057320-48216c17-e5dc-430f-9b8a-79f3618fd9fa.jpeg)
+
+We excuted rqt_reconfigure to adjust the parameters and the modifed parameters are saved in **turtlebot3_autorace_camera/calibration/extrinsic_calibration/projection.yaml** and **turtlebot3_autorace_camera/calibration/extrinsic_calibration/compensation.yaml** files.
+![Extrinsic Parameters Configuration](https://user-images.githubusercontent.com/62598684/203058323-d2d1d8cd-b3f1-4dc4-9a20-d53975a7fcd4.jpeg)
+
+# 2. Lane Detection 
+Lane detection package allows Turtlebot3 to drive between two lanes without external influence. The robot was placed on the lane whereby the **yellow line** was on the left side of the robot, and the **white line** was placed on the right side of the robot. Here, the lane detection packages [Turtlebot3 E-Manual Robotics](https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/) were executed and the launch file basically runs the lane detection source code **detect_lane.py**. The nodes publishes the below topics after running the **rqt**:   
+- **/detect/image_white_lane_marker/compressed**
+- **/detect/image_yellow_lane_marker/compressed**
+- **/detect/image_lane/compessed** which contains the reference line for the turtlebot3  trajectory.
+
+Adjusts for the filter parameters can be changed by doing the **thresholding** of the **HSL** (hue, saturation and lightness) using the **rqt_reconfigure** to fine-tune the lines and the direction as such, the red line was overlaid on the yellow line while the blue line was overlaid on the white line.
+![Detect_lane_rqt](https://user-images.githubusercontent.com/62598684/203061835-e03cc741-8a1d-44b8-962a-69cee6953456.jpeg)
+
+Hue, Saturation and Lightness is a cylindrical color model that remaps the RGB primary colors into dimensions. Its idearly important to note that the three dimensions of the HSL color model are interdependent. If the value dimension of a color is set to 0%, the amount of hue and saturation does not matter as the color will be black. Likewise, if the saturation of a color is set to 0%, the hue does not matter as there is no color used. 
+
+The following is what we get before making any modifications to our detection parameters : ![Lane detect 1](https://user-images.githubusercontent.com/62598684/203063436-b94a0d96-32cf-404e-b0f6-d5e434012d45.jpeg)
+
+If you can observe the small screen on the fur right side of our image, the track is still showing its original color being black and not a full on green which gives us a good indication that we have made our lane detection successfully.
+
+![Lane Detect 2](https://user-images.githubusercontent.com/62598684/203064861-10adc910-91e4-42b8-b286-d0e81275df44.jpeg)
+
+Now we can conclude to say we have a good lane detection done as the little screen on the right has fully turned green which mean we can now go ahead and excute our trained robot to perform lane detection. To watch a video that we took of or turtlebot performing lane follow the link below : https://youtu.be/51OK6jKl1r0
+
+
+
+
+
+
+
+
+
