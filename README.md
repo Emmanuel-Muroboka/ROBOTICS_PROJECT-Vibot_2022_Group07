@@ -66,6 +66,8 @@ Now we can conclude to say we have a good lane detection done as the little scre
 We decided to make things intresting by adding a challenge for our turtlebot and see how it would perform after being placed in this situation. The tunnel challenge is the sixth mission of the obstacles that a turtlebot is given to overcome during autorace challenges. To make the tunnel challenge possible we change the navigation parameters in the turtlebot3/turtlebot3_navigation/param/ file. If you slam and make a new map, Place the new map to turtlebot3_autorace package you’ve placed /turtlebot3_autorace/turtlebot3_autorace_driving/maps/. We used the command lines that are given on the emanual robotis website under mission 8.5.6 tunnel mission and after running them we were able to get the following result: https://youtu.be/V8_kccn-lH8  /  https://youtu.be/4VAaIomIwQQ
 
 ## 3. (ii) Traffic Lights Challenge
+Just to be extra, we decided to try the traffic challenge which is actually the first mission challenge on the autorace for a turtlebot3 and in most cases the traffic lights are placed at the beginning of the course before the turtlebot starts its challenge. Its definetly the same concept that auto race cars use before the start of there race, it predicts were they start, continue through or stop.
+
 
 
 
