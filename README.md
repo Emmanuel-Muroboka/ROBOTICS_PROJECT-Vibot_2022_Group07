@@ -111,7 +111,7 @@ https://www.youtube.com/watch?v=3R1I3ja8NmE
 
 ## 5. Stretch Goals & Limitation.
 The archetecture work flow is something that isnt as diverse as a lame man would think, its something thats straight forward to put in place but one thing that holds a huge impact on every result related to our turtlebot executting the objectives given for instance the lane detection and following is the aspect of lighting. Depending on what time of day the calibration of the turtlebot is done, matters as it plays a huge role when a test is being carried at a different time of day as related to the calibration time, with that being done the robot will most likely affect the camera projection which makes it difficult for the turtlebot3 to maintain consistency, specifically passing through the big tunnel.
-To conclude, our longtime goal is to try different other missions on the Turtlebot3 Autorace challenge for personal development. Therefore, we tend to edit this project after the implementation of the other Turtlebot3 Autorace tasks.
+To conclude, our longtime goal is to try different other missions on the Turtlebot3 Autorace challenge for personal development. Therefore, we intend on editing this project after the implementation of the other Turtlebot3 Autorace missions.
 
 ## 6. Conclusion.
 Our project was formulated on having to drive our turtlebot3 without external intervention by the detection of two lanes to be specific the yellow & white lines, with the use of color detection. Our project was formed with the specific order by following the ROBOTIS steps. https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/
