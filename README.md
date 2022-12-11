@@ -87,11 +87,20 @@ The red light was a full waste on, as it detected the entire block as red, to so
 
 ##   (iii) Traffic Signs Detection. 
 TurtleBot3 can detect traffic signs using a node with SIFT algorithm, and perform programmed tasks while it drives on a built track. Follow the provided instructions to use Traffic sign detection. We used a sign with a white back ground as that seems to help the bot capture what its trying to detect.
-With the implimentation of the SIFT algorithm, we were able to obtain the following results: 
-## (i) https://www.youtube.com/watch?v=LplhjmSVGZI 
+With the implimentation of the SIFT algorithm, we were able to obtain the following results:
+
+## (i) Track Test WithOut Intersection Sign.
+
+Demo Test:
+https://www.youtube.com/watch?v=LplhjmSVGZI 
 This implementation was illustrated on the screen record using the turtlebot3 camera, this was done without any signs placed in the view of the turtlebot camera.
 
-## (ii) https://www.youtube.com/watch?v=Yhc69tsQK9Y
+
+## (ii) Track Test With Intersection Sign.
+ Before any sign is placed in front of the turtlebot, we first have to show the sign below to the bot as a way of telling it that there is an intersection coming upahead, as this acts like a wake up call to the bot for it to expect the sign that tells it to go to the left or to go to the right. Justification for this can be found on this link https://www.youtube.com/watch?v=8K4GMbfXFXI.
+ 
+Demo Test :
+https://www.youtube.com/watch?v=Yhc69tsQK9Y
 The above implementation was done with a sign placed in the view of the turtlebot3 which definetly gave a whole different outcome.
 
 ## (iii) https://www.youtube.com/watch?v=3R1I3ja8NmE
