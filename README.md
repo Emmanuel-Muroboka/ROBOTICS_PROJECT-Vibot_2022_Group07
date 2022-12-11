@@ -66,33 +66,33 @@ If you can observe the small screen on the fur right side of our image, the trac
 
 Now we can conclude to say we have a good lane detection done as the little screen on the right has fully turned green which mean we can now go ahead and excute our trained robot to perform lane detection. To see our final outcome of what we learned to achieve lane detection, watch a video that we took of or turtlebot performing lane follow the link below : https://youtu.be/51OK6jKl1r0
 
-## 3. (i) Tunnel Challenge 
+## 3. (i) Mission Challenges 
 We decided to make things intresting by adding a challenge for our turtlebot and see how it would perform after being placed in this situation. The tunnel challenge is the sixth mission of the obstacles that a turtlebot is given to overcome during autorace challenges. To make the tunnel challenge possible we change the navigation parameters in the turtlebot3/turtlebot3_navigation/param/ file. If you slam and make a new map, Place the new map to turtlebot3_autorace package you’ve placed /turtlebot3_autorace/turtlebot3_autorace_driving/maps/. We used the command lines that are given on the emanual robotis website under mission 8.5.6 tunnel mission and after running them we were able to get the following result: https://youtu.be/V8_kccn-lH8  /  https://youtu.be/4VAaIomIwQQ
 
-## 3. (ii) Traffic Lights Challenge
+##   (ii) Traffic Lights Challenge
 Just to be extra, we decided to try the traffic challenge which is actually the first mission challenge on the autorace for a turtlebot3 and in most cases the traffic lights are placed at the beginning of the course before the turtlebot starts its challenge. Its definetly the same concept that auto race cars use before the start of there race, it predicts were they start, continue through or stop.
 
-## Green_light Detection.
+##  Green_light Detection.
   ![Greenlight_detect](https://user-images.githubusercontent.com/62598684/203078163-e86f3538-85ef-435d-b25e-2ac435bc9fe0.jpeg)
   
   We werent able to get a full glipmse of the green light detection due to the fact that the bulbs on our traffic lights are quite small for our turtlebot to be able to obtain a full detection of the green traffic light. Among the 3 colors on our traffic lights, green was the only one that seemed to get a pro progressive answer than the others.
   
-## Yellow_light Detection.
+##  Yellow_light Detection.
 ![Yellow_light detect](https://user-images.githubusercontent.com/62598684/203080970-85fdcdf2-1d7a-4534-93bf-3371a905b638.jpeg)
 The yellow light proved to be quite redundant as the robot was able to detect it but also it saw the red coloring of the traffic stand to be part of its assigned detection.
 
-## Red_Light Detection.
+##  Red_Light Detection.
 ![Redlight_detect](https://user-images.githubusercontent.com/62598684/203085109-31283c13-1763-4e07-af7c-a508dece1278.jpeg)
 The red light was a full waste on, as it detected the entire block as red, to sort out this problem i would sugguest that another traffic stand be printed probably not in a red color but maybe black and with bigger bulbs that will easily give out light for our turtlebot to be able to detect the colors easily.
 
-## Traffic Sign Detection. 
+##   (iii) Traffic Signs Detection. 
 TurtleBot3 can detect traffic signs using a node with SIFT algorithm, and perform programmed tasks while it drives on a built track. Follow the provided instructions to use Traffic sign detection. We used a sign with a white back ground as that seems to help the bot capture what its trying to detect.
 With the implimentation of the SIFT algorithm, we were able to obtain the following results: 
 ## (i) https://www.youtube.com/watch?v=LplhjmSVGZI 
 This implementation was illustrated on the screen record using the turtlebot3 camera, this was done without any signs placed in the view of the turtlebot camera.
 
 ## (ii) https://www.youtube.com/watch?v=Yhc69tsQK9Y
-The above implementation was done with a sign placed in the view of the turtlebot3 which definetly gave a whhole different outcome.
+The above implementation was done with a sign placed in the view of the turtlebot3 which definetly gave a whole different outcome.
 
 ## (iii) https://www.youtube.com/watch?v=3R1I3ja8NmE
 
