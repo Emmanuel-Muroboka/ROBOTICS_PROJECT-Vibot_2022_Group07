@@ -114,7 +114,7 @@ The archetecture work flow is something that isnt as diverse as a lame man would
 To conclude, our longtime goal is to try different other missions on the Turtlebot3 Autorace challenge for personal development. Therefore, we tend to edit this project after the implementation of the other Turtlebot3 Autorace tasks.
 
 ## 6. Conclusion.
-Our project was formulated on having to drive our turtlebot3 without external intervention by the detection of two lanes to be specific the yellow & white lines, which we call color detection. Our project was formed with the specific order by following the ROBOTIS steps. https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/
+Our project was formulated on having to drive our turtlebot3 without external intervention by the detection of two lanes to be specific the yellow & white lines, with the use of color detection. Our project was formed with the specific order by following the ROBOTIS steps. https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/
 
 
 
