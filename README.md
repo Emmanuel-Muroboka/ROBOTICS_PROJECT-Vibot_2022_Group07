@@ -1,6 +1,8 @@
 # AUTONOMOUS_DRIVING_WITH_TURTLEBOT3.
 
-<img align="left" width="200" height="100" src=<"https://user-images.githubusercontent.com/62598684/203011017-f6f1d210-d519-4e8a-b8f4-f41636959439.jpeg">  ![Turtleninja](https://user-images.githubusercontent.com/62598684/203013394-dca774a6-542f-4eca-85a1-73550a111bdc.jpg) ![145659645-9ab35c4d-694e-499d-8fad-6bf1091d32ec](https://user-images.githubusercontent.com/62598684/203011326-ee9c67f2-d05e-4c54-91a4-aad4b3284b2e.jpeg)                                                        
+<img align="left" width="200" height="100" src="https://user-images.githubusercontent.com/62597513/145659645-9ab35c4d-694e-499d-8fad-6bf1091d32ec.jpeg">
+[Turtleninja](https://user-images.githubusercontent.com/62598684/203013394-dca774a6-542f-4eca-85a1-73550a111bdc.jpg) ![145659645-9ab35c4d-694e-499d-8fad-
+<img align="right" width="180" height="100" src="https://user-images.githubusercontent.com/62597513/150416328-160de66a-30b7-4a78-960b-b74db8ab4096.jpeg">
                                                                                                                                                                                                                                                                                  
 # Prepared By: SAMUEL IJEOMA BONIFACE & MISHECK EMMANUEL CHIRWA  
 Supervised by: Duverne Raphael, Martins Renato, Rodriguez J. Joaquin.
