@@ -65,7 +65,7 @@ If you can observe the small screen on the fur right side of our image, the trac
 ![Lane Detect 2](https://user-images.githubusercontent.com/62598684/203064861-10adc910-91e4-42b8-b286-d0e81275df44.jpeg)
 
 ## Final Test With Comments.
-Now we can conclude to say we have a good lane detection done as the little screen on the right has fully turned green which mean we can now go ahead and excute our trained robot to perform lane detection. To see our final outcome of what we learned to achieve lane detection, watch a video that we took of or turtlebot performing lane follow the link below : https://youtu.be/51OK6jKl1r0
+Now we can conclude to say we have a good lane detection done as the little screen on the right has fully turned green which mean we can now go ahead and excute our trained robot to perform lane detection. To see our final outcome of what we learned to achieve lane detection, watch a video that we took of or turtlebot performing lane follow with this link : https://www.youtube.com/watch?v=BLM3TgRY0So
 
 ## 3. (i) Mission Challenges 
 We decided to make things intresting by adding a challenge for our turtlebot and see how it would perform after being placed in this situation. The tunnel challenge is the sixth mission of the obstacles that a turtlebot is given to overcome during autorace challenges. To make the tunnel challenge possible we change the navigation parameters in the turtlebot3/turtlebot3_navigation/param/ file. If you slam and make a new map, Place the new map to turtlebot3_autorace package you’ve placed /turtlebot3_autorace/turtlebot3_autorace_driving/maps/. We used the command lines that are given on the emanual robotis website under mission 8.5.6 tunnel mission and after running them we were able to get the following result: https://youtu.be/V8_kccn-lH8  /  https://youtu.be/4VAaIomIwQQ
@@ -108,6 +108,13 @@ The above implementation was done with a sign placed in the view of the turtlebo
 
 ## (iv)Final Test.
 https://www.youtube.com/watch?v=3R1I3ja8NmE
+
+## 5. Stretch Goals & Limitation.
+The archetecture work flow is something that isnt as diverse as a lame man would think, its something thats straight forward to put in place but one thing that holds a huge impact on every result related to our turtlebot executting the objectives given for instance the lane detection and following is the aspect of lighting. Depending on what time of day the calibration of the turtlebot is done, matters as it plays a huge role when a test is being carried at a different time of day as related to the calibration time, with that being done the robot will most likely affect the camera projection which makes it difficult for the turtlebot3 to maintain consistency, specifically passing through the big tunnel.
+To conclude, our longtime goal is to try different other missions on the Turtlebot3 Autorace challenge for personal development. Therefore, we tend to edit this project after the implementation of the other Turtlebot3 Autorace tasks.
+
+## 6. Conclusion.
+Our project was formulated on having to drive our turtlebot3 without external intervention by the detection of two lanes to be specific the yellow & white lines, which we call color detection. Our project was formed with the specific order by following the ROBOTIS steps. https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/
 
 
 
