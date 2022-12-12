@@ -99,6 +99,8 @@ This implementation was illustrated on the screen record using the turtlebot3 ca
 
 ## (iii) Track Test With Intersection Sign.
  Before any sign is placed in front of the turtlebot, we first have to show the sign below to the bot as a way of telling it that there is an intersection coming upahead, as this acts like a wake up call to the bot for it to expect the sign that tells it to go to the left or to go to the right. Justification for this can be found on this link https://www.youtube.com/watch?v=8K4GMbfXFXI.
+ 
+ 
  ![395px-Korean_Traffic_sign_(T-shaped_intersection) svg](https://user-images.githubusercontent.com/62598684/206928877-61821feb-89c6-4df8-9272-03309b554e97.png)
 
  
